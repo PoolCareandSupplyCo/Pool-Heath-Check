@@ -1,8 +1,5 @@
-Pool Health Check App V15 Master
-- Restored Poolcare + Supply Co logo.
-- Keeps PDF generator.
-- Keeps Email Report button.
-- Keeps Customer Email and Pool Volume.
-- Adds Photo Evidence uploads.
-- Inserts uploaded photos after Overall Pool Health in generated report.
-- Includes photo captions.
+Pool Health Check App V16
+- Forces Poolcare logo into app and generated report header.
+- Reworks Download PDF to capture report sections separately.
+- Reduces awkward mid-section page splits.
+- Keeps photos, captions, email, pool volume and report structure.
