@@ -1,9 +1,5 @@
-Pool Health Check App V16.1 Stability Release
-- Uses external logo.png instead of embedded/base64 logo.
-- Logo should display properly on GitHub Pages.
-- Keeps photo uploads/photo evidence.
-- Keeps PDF download and email report buttons.
-- Strengthens page-break handling for generated PDFs.
-- No intentional layout redesign.
-
-Upload BOTH index.html and logo.png to GitHub.
+Pool Health Check App V16.2
+- Live app uses logo.png.
+- Generated report/PDF uses embedded logo so PDF capture does not lose it.
+- PDF generator waits for images before capture.
+- Upload BOTH index.html and logo.png to GitHub.
