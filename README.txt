@@ -1,5 +1,5 @@
-Pool Health Check App V16.2
+Pool Health Check App V16.4
+- Keeps actual Poolcare logo.
 - Live app uses logo.png.
-- Generated report/PDF uses embedded logo so PDF capture does not lose it.
-- PDF generator waits for images before capture.
+- Generated report/PDF renders logo as CSS background image for reliable PDF capture.
 - Upload BOTH index.html and logo.png to GitHub.
