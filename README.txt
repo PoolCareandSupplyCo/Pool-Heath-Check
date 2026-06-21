@@ -1,4 +1,6 @@
-Pool Health Check App V16.5
-- Forces the actual Poolcare logo directly into the generated report HTML.
-- PDF export waits for report images before capture.
-- Upload BOTH index.html and logo.png to GitHub.
+Pool Health Check App V16.6
+- Fixes photo scaling using object-fit: contain.
+- Adds white photo background.
+- Keeps photo proportions in report/PDF.
+- Renames Email Report button to Prepare Email.
+- No layout or report structure changes.
