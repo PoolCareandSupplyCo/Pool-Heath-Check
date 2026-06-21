@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Poolcare + Supply Co Pool Health Check V10</title>
+<title>Poolcare + Supply Co Pool Health Check V11</title>
 <style>
 :root{
   --navy:#071f3a;
@@ -126,6 +126,7 @@ main{padding:0;max-width:none}
 <div><label>Contact Number</label><input id="contact"></div>
 <div><label>Customer Email</label><input id="customerEmail" type="email" placeholder="customer@email.com"></div>
 <div><label>Address</label><input id="address"></div>
+<div><label>Pool Volume (L)</label><input id="poolVolume" placeholder="50000"></div>
 <div><label>Date</label><input id="date" type="date"></div>
 <div><label>Technician</label><input id="tech"></div>
 <div><label>Pool Type</label><input id="poolType" placeholder="Salt / Mineral / Chlorine"></div>
@@ -272,6 +273,7 @@ report.innerHTML=`<div class="report-shell"><section class="report-body">
 <div class="meta-card"><div class="meta-label">Customer</div><div class="meta-value">${esc(val("customer"))||"-"}</div></div>
 <div class="meta-card"><div class="meta-label">Email</div><div class="meta-value">${esc(val("customerEmail"))||"-"}</div></div>
 <div class="meta-card"><div class="meta-label">Property</div><div class="meta-value">${esc(val("address"))||"-"}</div></div>
+<div class="meta-card"><div class="meta-label">Pool Volume</div><div class="meta-value">${esc(val("poolVolume"))||"-"} L</div></div>
 <div class="meta-card"><div class="meta-label">Date</div><div class="meta-value">${esc(val("date"))||"-"}</div></div>
 <div class="meta-card"><div class="meta-label">Technician</div><div class="meta-value">${esc(val("tech"))||"-"}</div></div>
 </div>
