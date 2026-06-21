@@ -1,7 +1,8 @@
-Pool Health Check App V12.
-- Added app-generated Download PDF button using html2canvas/jsPDF.
-- Added Email Report button using Customer Email field.
-- Added/kept Pool Volume field where possible.
-- Avoids Safari print URL footer by generating PDF inside the app.
-
-After uploading index.html to GitHub, wait 30-60 seconds and refresh your GitHub Pages URL.
+Pool Health Check App V15 Master
+- Restored Poolcare + Supply Co logo.
+- Keeps PDF generator.
+- Keeps Email Report button.
+- Keeps Customer Email and Pool Volume.
+- Adds Photo Evidence uploads.
+- Inserts uploaded photos after Overall Pool Health in generated report.
+- Includes photo captions.
