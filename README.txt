@@ -1,6 +1,6 @@
-Pool Health Check App V16.6
-- Fixes photo scaling using object-fit: contain.
-- Adds white photo background.
-- Keeps photo proportions in report/PDF.
-- Renames Email Report button to Prepare Email.
-- No layout or report structure changes.
+Pool Health Check App V17.2
+- Keeps V17.1 true photo aspect ratio fix.
+- Restores Save / Share PDF print/share flow.
+- Renames Email Report to Prepare Email.
+- No custom distorted PDF download.
+- Upload index.html and logo.png to GitHub.
