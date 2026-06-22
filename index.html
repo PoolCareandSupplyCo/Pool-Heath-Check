@@ -1186,6 +1186,27 @@ main{padding:0;max-width:none}
 }
 </style>
 
+
+<style>
+/* V18.1 Compact Customer Summary */
+#report .meta-grid{
+ display:block!important;
+}
+#report .meta-grid .meta-card{
+ display:none!important;
+}
+#report .customer-summary-card{
+ display:block!important;
+ border:1px solid var(--line,#d9dee5);
+ border-radius:12px;
+ padding:12px 14px;
+ margin:12px 0;
+ background:#fff;
+ font-size:13px;
+ line-height:1.5;
+}
+#report .customer-summary-card strong{color:var(--navy,#123);}
+</style>
 </head>
 <body>
 <header><div class="header-inner"><img class="logo" src="logo.png" alt="Poolcare + Supply Co logo"><div><div class="brand-title">Poolcare + Supply Co</div><div class="brand-sub">Pool Health Check App</div></div></div></header>
@@ -1529,6 +1550,25 @@ Poolcare + Supply Co`;
   window.location.href = mailto;
 }
 
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+ const obs=new MutationObserver(()=>{
+  const mg=document.querySelector('#report .meta-grid');
+  if(mg && !mg.querySelector('.customer-summary-card')){
+    const cards=[...mg.querySelectorAll('.meta-card')];
+    if(cards.length){
+      const vals=cards.map(c=>c.innerText.trim().replace(/\n+/g,': '));
+      const box=document.createElement('div');
+      box.className='customer-summary-card';
+      box.innerHTML=vals.map(v=>'<div>'+v+'</div>').join('');
+      mg.prepend(box);
+    }
+  }
+ });
+ obs.observe(document.body,{childList:true,subtree:true});
+});
 </script>
 </body>
 </html>
