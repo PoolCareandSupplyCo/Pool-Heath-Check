@@ -1,7 +1,7 @@
-Pool Health Check App V17.9
-- Visual polish only.
-- Larger logo.
-- Larger report title.
-- Better portrait issue-photo handling.
-- No report logic, Other field, Save/Share, or content changes.
+Pool Health Check App V18
+- Premium centred report header.
+- Larger centred logo.
+- Larger centred report title.
+- Tighter spacing before customer details.
+- No report logic, photo, Other field, or Save/Share workflow changes.
 - Upload index.html and logo.png to GitHub.
