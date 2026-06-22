@@ -1,7 +1,5 @@
-Pool Health Check App V17.4 Safe
-- Built from working V17.3 base.
-- Changes Review Additional Findings to Inspection Findings.
-- Adds Other Action Details box safely.
-- Other details included in Recommended Actions and Action Plan.
+Pool Health Check App V17.5
+- Fixes Other Action Details appearing in Recommended Actions.
+- Keeps Other Action Details in Action Plan.
 - No photo, logo, PDF, or layout changes.
 - Upload index.html and logo.png to GitHub.
