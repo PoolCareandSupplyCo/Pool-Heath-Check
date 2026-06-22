@@ -1,6 +1,8 @@
-Pool Health Check App V17.2
-- Keeps V17.1 true photo aspect ratio fix.
-- Restores Save / Share PDF print/share flow.
-- Renames Email Report to Prepare Email.
-- No custom distorted PDF download.
+Pool Health Check App V17.3
+- Photo refinement only.
+- 2-column photo grid.
+- 180px photo height.
+- object-fit: cover.
+- Smaller captions.
+- No logo, layout, report structure, or PDF-flow changes.
 - Upload index.html and logo.png to GitHub.
