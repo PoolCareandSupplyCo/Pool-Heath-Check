@@ -1,7 +1,6 @@
-Pool Health Check App V18.5 Final Polish
-- Larger report logo.
-- Larger report title.
-- Slightly larger homeowner summary values.
-- Removes GitHub URL / timestamp / page footer from report.
-- No photo, layout, report logic, Other field, or Save/Share workflow changes.
+Pool Health Check App V18.6
+- Hard header fix: targets actual report-title/report-subtitle classes.
+- Larger logo and larger report title in report and print preview.
+- Keeps V18.4 photo cards and homeowner summary.
+- Note: iPhone print footer URL/date/page is controlled by iOS print, not report HTML.
 - Upload index.html and logo.png to GitHub.
