@@ -1,5 +1,6 @@
-Pool Health Check App V18.2
-- Physically replaces the six homeowner detail cards with one compact homeowner summary panel.
-- Built from the uploaded V18 centred-header version.
-- No changes to photos, Other field, Inspection Findings, or Save/Share workflow.
+Pool Health Check App V18.3
+- Built from V18.2 compact homeowner summary.
+- Save / Share PDF waits for uploaded report images to load before opening print preview.
+- Print CSS explicitly keeps photo evidence visible.
+- No design, layout, Other field, or report logic changes.
 - Upload index.html and logo.png to GitHub.
